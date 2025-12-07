@@ -32,7 +32,7 @@ void printCalculation(float value1, float value2, char symbol) {
 
 int main()
 {
-    float value1{ 0 }, value2{ 0 };
+    float value1{}, value2{};
     char symbol;
 
     std::cout << "Enter two values:\n";
