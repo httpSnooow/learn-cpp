@@ -39,4 +39,5 @@ int main() {
 	}
   
 	std::cout << "Quitting program!" << '\n';
+	std::cin.get();
 }
