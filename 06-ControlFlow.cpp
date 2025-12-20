@@ -61,4 +61,7 @@ int main()
 	std::cout << "=======================\n";
 
 	printLowerThan10(value);
+
+	std::cin.get();
+
 }
