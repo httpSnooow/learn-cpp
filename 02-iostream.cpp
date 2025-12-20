@@ -8,5 +8,5 @@ int main () {
 
 	std::cout << "You entered " << x << " and " << y << ".\n";
 	
-	return 0;
+	std::cin.get();
 }
