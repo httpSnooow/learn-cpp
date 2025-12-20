@@ -47,6 +47,5 @@ int main()
     std::cin >> symbol;
 
     printCalculation(value1, value2, symbol);
-
-    return 0;
+    std::cin.get();
 }
