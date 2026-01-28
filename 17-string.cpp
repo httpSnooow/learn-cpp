@@ -16,6 +16,9 @@ int main()
     
     std::string name = "Guilherme";
     name += " Eduardo";
+
+    //using namespace std::string_literals;
+    //std::string name = "Guilherme"s + " Eduardo";
     
     //std::string name = std::string("Guilherme") + " Eduardo";
     
