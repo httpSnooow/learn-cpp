@@ -10,6 +10,7 @@ void printArray(int values[]) {
     for (int i = 0; i < 5; i++) {
         std::cout << values[i] << ' ';
     }
+    std::cout << '\n';
 }
 
 int main() 
@@ -22,6 +23,10 @@ int main()
     *(ptr + 2) = 6;
     
     printArray(values);
+    
+    int arraySize = sizeof(values)/sizeof(int);
+    
+    std::cout << "The array size is: " << arraySize << std::endl;
     
 	std::cin.get();
 }
